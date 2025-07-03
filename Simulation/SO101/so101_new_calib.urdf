@@ -5,7 +5,7 @@
 
   <!-- Materials -->
   <material name="3d_printed">
-    <color rgba="1.0 0.82 0.12 1.0"/>
+    <color rgba="1.0 1.0 1.0 1.0"/>
   </material>
   <material name="sts3215">
     <color rgba="0.1 0.1 0.1 1.0"/>
@@ -306,6 +306,11 @@
     <axis xyz="0 0 0"/>
   </joint>
 
+  <!-- Camera frame -->
+  <link name="camera_link">
+    <origin xyz="0 0 0" rpy="0 -0 0"/>
+  </link>
+
   <!-- Link moving_jaw_so101_v1 -->
   <link name="moving_jaw_so101_v1_link">
     <inertial>
@@ -368,6 +373,14 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
+
+  <!-- Joint from gripper to camera -->
+  <joint name="fixed_camera" type="fixed">
+    <!-- 1.5708, 0.61087 -->
+    <origin xyz="0 0.06620 -0.04905" rpy="0 2.18166 1.5708"/>
+    <parent link="gripper_link"/>
+    <child link="camera_link"/>
+  </joint>
 
   <!-- Joint from lower_arm to wrist -->
   <joint name="wrist_flex" type="revolute">
@@ -448,6 +461,6 @@
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
-  </transmission> 
+  </transmission>
 
 </robot>
