@@ -340,7 +340,7 @@
     <parent link="gripper_link"/>
     <child link="moving_jaw_so101_v1_link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-0.174533" upper="1.74533"/>
+    <limit effort="10" velocity="10" lower="-0.349066" upper="1.74533"/>
   </joint>
 
   <transmission name="gripper_trans">
