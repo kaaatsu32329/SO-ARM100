@@ -54,6 +54,8 @@ You can find all optional for SO-100/SO-101 kits here:
 - from PartaBot :us: [US](https://partabot.com) (They include **assembled** versions, and also sell LeKiwi and Koch robots)
 - from Seeed studio :earth_africa: [International](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or :cn: [China](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn) or :jp: [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131169/) or [Aliexpress](https://www.aliexpress.com/item/3256808696884714.html?gatewayAdapt=4itemAdapt) (They include **3d printed kits**)
 - from WowRobo :earth_africa: [International](https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1) or :cn: [China](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions)
+- from Sudoremove :kr: [South Korea](https://smartstore.naver.com/sudoremove/products/12022333117)
+- from NeoBot :cn: [China](https://item.taobao.com/item.htm?ft=t&id=957685951340)
 
 Additionally you can find SO-100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
 
@@ -181,6 +183,16 @@ Go here: [Printing services](./3DPRINT.md)
 Extend your SO‑100/SO‑101 with these add-ons.
 <details>
 <summary>Add‑ons</summary>
+
+#### 0. XLeRobot
+
+A dual-arm mobile robot for daily use, with 2x SO101 arms, 1x Lekiwi base, 1x 300Wh Anker Battery, 2x wrist RGB cameras, 1x head depth camera (with a 2-dof neck). Total cost 960$.
+
+<img src="https://github.com/user-attachments/assets/588b7b3d-8d6a-471b-8d00-9253f9822c4a" height="300">
+
+[→ Full Documentation](https://xlerobot.readthedocs.io/en/latest/index.html), with detailed BOM, 3D models, assembly guide, and complete simulation platform.
+<img src="https://github.com/user-attachments/assets/c1e45354-29e9-47b7-8d7d-8944496a3c22" height="300">
+
 
 #### 1. Mount Helper  
 Print the handy mount jig for easier alignment during assembly.  
